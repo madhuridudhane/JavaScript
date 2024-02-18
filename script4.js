@@ -55,19 +55,19 @@ switch (state) {
           console.log("invalid")
 }
 
-let x1=10
-let x2=20
-let x3=30
-let isGreater=true
+let x1 = 10
+let x2 = 20
+let x3 = 30
+let isGreater = true
 
-switch(isGreater){
-     case x1>x2 && x1>x3:
+switch (isGreater) {
+     case x1 > x2 && x1 > x3:
           console.log("x1 is greater")
           break
-     case x2>x1 && x2>x3:
-          console.log("x2 is greater")  
+     case x2 > x1 && x2 > x3:
+          console.log("x2 is greater")
           break
      default:
           console.log("x3 is greater")
-                  
+
 }
